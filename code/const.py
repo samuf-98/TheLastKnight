@@ -1,3 +1,4 @@
+import pygame
 
 #C
 C_DOURADA = (212, 175, 55)
@@ -9,7 +10,13 @@ ENTITY_SPEED = {
     'Level1Bg0': 0,
     'Level1Bg1': 0.7,
     'Level1Bg2': 0.8,
+    'Player1': 4, #04.04
+    'Enemy1': 2,
+    'Enemy2': 2.5,
+    'Enemy3': 3
 }
+
+EVENT_ENEMY = pygame.USEREVENT + 1 #04.08
 
 #M
 MENU_OPTIONS = ( #02.06
