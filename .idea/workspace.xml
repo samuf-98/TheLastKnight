@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="767abc0e-353e-4564-96e8-7464ca9c69bb" name="Changes" comment="Criação do Background do Level 1">
-      <change afterPath="$PROJECT_DIR$/asset/Enemy1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Enemy2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Enemy3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Player3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
+    <list default="true" id="767abc0e-353e-4564-96e8-7464ca9c69bb" name="Changes" comment="Geração das Entidades (Player e Enemy) na tela do Level">
+      <change afterPath="$PROJECT_DIR$/asset/Enemy1Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Enemy2Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Enemy3Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Player1Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Player2Shot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/EnemyShot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/EntityMediatorNoUse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/EntityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Enemy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/code/Level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +64,19 @@
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.Game.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Player.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/samuf/OneDrive/_estudos/_03_python/projetos/TheLastKnight/asset&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\samuf\OneDrive\_estudos\_03_python\projetos\TheLastKnight\asset" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\samuf\OneDrive\_estudos\_03_python\projetos\TheLastKnight\asset" />
       <recent name="C:\Users\samuf\OneDrive\_estudos\_03_python\projetos\TheLastKnight\code" />
@@ -115,13 +121,22 @@
       <option name="project" value="LOCAL" />
       <updated>1782065285790</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Geração das Entidades (Player e Enemy) na tela do Level">
+      <option name="closed" value="true" />
+      <created>1782070889369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782070889369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeiro commit para o repositorio no GitHub" />
     <MESSAGE value="Criação no Menu, ainda sem conseguir selecionar as opções" />
     <MESSAGE value="Criação do Background do Level 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do Background do Level 1" />
+    <MESSAGE value="Geração das Entidades (Player e Enemy) na tela do Level" />
+    <option name="LAST_COMMIT_MESSAGE" value="Geração das Entidades (Player e Enemy) na tela do Level" />
   </component>
 </project>
